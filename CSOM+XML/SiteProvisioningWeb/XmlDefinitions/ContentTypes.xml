@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010078768679b88145f8965f070ee173080d"
+               Name="Accreditation"
+               Group="Media Asset Library"
+               Description="Accreditation List Content Type"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{35D6E4AB-EE40-43E0-9B76-26DEF65ADF7A}" Name="UserID" />
+      <FieldRef ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" />
+      <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" />
+      <FieldRef ID="{98d1acc5-4a13-42bb-ba4e-d5f812cf7426}" Name="PhoneNumber"/>
+      <FieldRef ID="{423d8167-2ac0-46c7-b623-bd1265eb95ac}" Name="Organisation"/>
+      <FieldRef ID="{0E5FFB7C-2353-4BD9-BC83-2C149D9385CD}" Name="OrganisationDetails" />
+      <FieldRef ID="{3a8ac3ea-c2b7-4fd7-9806-f7c6b87390c7}" Name="AccreditationStatus"/>
+      <FieldRef ID="{e3fb5276-dab9-406a-985f-2244b6122b64}" Name="Website"/>
+    </FieldRefs>
+  </ContentType>
+  <ContentType ID="0x0100e30780cdf1fe48dd8c3cd0d1d4ec6677"
+             Name="ARU Media"
+             Group="Media Asset Library"
+             Description="ARU Media Content Type"
+             Inherits="TRUE"
+             Version="0">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="TRUE" ShowInNewForm="TRUE" ShowInEditForm="TRUE" />
+      <FieldRef ID="{f8d04f4b-626f-41df-9445-1bd880e19754}" Name="VideoID" />
+      <FieldRef ID="{b60e2a09-409d-4f45-afea-51a2a03f46de}" Name="Video_x0020_Description" />
+      <FieldRef ID="{ba553af0-41e4-4770-856c-f3abeb8bb9b8}" Name="Author_x0020_Name" />
+      <FieldRef ID="{1ae61478-27ce-4d6d-8872-3dc9bd415ddf}" Name="Record_x0020_Start" />
+      <FieldRef ID="{b8e4c028-ea58-456a-b805-9e850e8c4762}" Name="Record_x0020_End" />
+      <FieldRef ID="{86bfbc3d-95bd-4456-8451-cb5e057a81d6}" Name="Approve_x0020_Status" />
+    </FieldRefs>
+  </ContentType>
+  <ContentType ID="0x0101001b7c15a2a337478da29736c1685a6423"
+             Name="License"
+             Group="Media Asset Library"
+             Description="License document library"
+             Inherits="TRUE"
+             Version="0">
+    <FieldRefs>
+      <FieldRef Name="Editable" ID="{CDAEB8F9-E7B2-4D38-A8D1-2912DA336C33}" />
+      <FieldRef Name="Approved" ID="{29581D89-4269-4C47-9B62-B48DA6F42AD4}" />
+      <FieldRef Name="LicenseDays" ID="{99CB4DC0-82D0-4F55-B241-8232BC909BA6}" />
+      <FieldRef Name="LicenseID" ID="{D76E1B50-D3AD-488E-98A4-168710B7D99F}" />
+      <FieldRef Name="LicenseRequirement" ID="{DE7F82F7-3FD9-4EFF-BBCA-15CB20DEB8A8}" />
+      <FieldRef Name="RequesterName" ID="{08220569-3D75-48CB-8354-C22B6A72EF15}" />
+      <FieldRef Name="Accepted" ID="{481EB76D-361D-42C0-B640-B5787F229EF8}" />
+      <FieldRef Name="UserEmail" ID="{01D6A900-EB28-422F-B3B7-96951960E74B}" />
+      <FieldRef Name="UserID" ID="{35D6E4AB-EE40-43E0-9B76-26DEF65ADF7A}" />
+      <FieldRef Name="LicenseType" ID="{066AF04F-BCB9-495A-B7E9-A8F66E9A1516}"/>
+      <FieldRef Name="LicenseApprovers" ID="{91DE8220-212E-4E79-A009-D02E28B0D705}"/>
+      <FieldRef Name="VideoID" ID="{f8d04f4b-626f-41df-9445-1bd880e19754}" />
+    </FieldRefs>
+  </ContentType>
+  <ContentType ID="0x0100242ddd30e570455fa54df8e0f8068c28"
+             Name="License Clause"
+             Group="Media Asset Library"
+             Description="License Clause"
+             Inherits="TRUE"
+             Version="0">
+    <FieldRefs>
+      <FieldRef  Name="ClauseID" ID="{B0DB2DA1-A816-4538-946A-1BF76C278AD6}"/>
+      <FieldRef  Name="LicenseClause" ID="{7D9F1796-C41F-4D54-A923-50FDB96CE82E}"/>
+      <FieldRef  Name="ClauseType" ID="{5D41ED09-6B9A-435C-BE86-4C3AA45849EE}" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

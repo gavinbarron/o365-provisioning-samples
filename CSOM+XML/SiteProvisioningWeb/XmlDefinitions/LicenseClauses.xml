@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    <Field Name="ClauseID">1</Field>
+    <Field Name="Title">Grant of License</Field>
+    <Field Name="ClauseType">General</Field>
+    <Field Name="LicenseClause">The materials that are the subject of this Agreement shall consist of [electronic information published or otherwise made available by Licensor] (hereinafter referred to as the "Licensed Materials").</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">2</Field>
+    <Field Name="Title">Acknowledge copyright</Field>
+    <Field Name="ClauseType">General</Field>
+    <Field Name="LicenseClause">Licensee and its Authorized Users acknowledge that the copyright and title to the Licensed Materials and any trademarks or service marks relating thereto remain with Licensor and/or its suppliers. Neither Licensee nor its Authorized Users shall have right, title or interest in the Licensed Materials except as expressly set forth in this Agreement. </Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">3</Field>
+    <Field Name="Title">Non-exclusive use</Field>
+    <Field Name="ClauseType">General</Field>
+    <Field Name="LicenseClause">Licensor hereby grants to Licensee non-exclusive use of the Licensed Materials and the right to provide the Licensed Materials to Authorized Users in accordance with this Agreement.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">4</Field>
+    <Field Name="Title">Master agreement</Field>
+    <Field Name="ClauseType">General</Field>
+    <Field Name="LicenseClause">This agreement is a sub-agreement and shall also adhere to the terms and conditions specified in the licensee's master media access agreement.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">5</Field>
+    <Field Name="Title">Fair use</Field>
+    <Field Name="ClauseType">General</Field>
+    <Field Name="LicenseClause">The ARU may, at its discretion, ensure fair access and use of streaming media assets by restricting usage of the media covered in this agreement; using any and all reasonable measures including, but not limited to, bandwidth throttling, access restriction.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">6</Field>
+    <Field Name="Title">Non-compete</Field>
+    <Field Name="ClauseType">Sponsor</Field>
+    <Field Name="LicenseClause">The licensee shall ensure that sponsors and supporters of the ARU shall be fairly represented in the usage or dissemination of the media covered by this agreement.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">7</Field>
+    <Field Name="Title">Non conflicting</Field>
+    <Field Name="ClauseType">Sponsor</Field>
+    <Field Name="LicenseClause">The licensee shall ensure that sponsors and supporters of the ARU included in the media item shall in any way be placed in a position whereby the sponsor or supporter may be reasonably interpreted to be anti-competitive, conflicting or embarrassing for the sponsor or supporter.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">8</Field>
+    <Field Name="Title">Extended - 10 days</Field>
+    <Field Name="ClauseType">Duration</Field>
+    <Field Name="LicenseClause">Licensor hereby grants to Licensee the unrestricted use of the media (in accordance with the terms within this agreement) for a period of 10 (ten) days.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">9</Field>
+    <Field Name="Title">Extended - 14 days</Field>
+    <Field Name="ClauseType">Duration</Field>
+    <Field Name="LicenseClause">Licensor hereby grants to Licensee the unrestricted use of the media (in accordance with the terms within this agreement) for a period of 14 (fourteen) days.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">10</Field>
+    <Field Name="Title">Extended - specify days</Field>
+    <Field Name="ClauseType">Duration</Field>
+    <Field Name="LicenseClause">Licensor hereby grants to Licensee the unrestricted use of the media (in accordance with the terms within this agreement) for a period of xxxx (yyyyy) days.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">11</Field>
+    <Field Name="Title">Full edit</Field>
+    <Field Name="ClauseType">Editing</Field>
+    <Field Name="LicenseClause">Licensee is granted rights to download the physical media, solely for the purpose of use for publication within the licensee (or affiliates) publication and may use and alter the media providing the alterations are in accordance with terms elsewhere in this agreement.</Field>
+  </Row>
+  <Row>
+    <Field Name="ClauseID">12</Field>
+    <Field Name="Title">Non editing</Field>
+    <Field Name="ClauseType">Editing</Field>
+    <Field Name="LicenseClause">Licensee is granted rights to download the physical media, solely for the purpose of use for publication within the licensee (or affiliates) publication, providing that the media is un-edited, adjusted, altered or modified in any way.</Field>
+  </Row>
+</Rows>

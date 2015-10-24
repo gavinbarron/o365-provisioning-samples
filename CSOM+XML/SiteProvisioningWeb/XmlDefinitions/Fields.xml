@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Media List Columns -->
+  <Field Type="Choice" DisplayName="Approval Status" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Media Asset Library" ID="{86bfbc3d-95bd-4456-8451-cb5e057a81d6}" SourceID="{463f0f9c-9a79-4ce1-aef7-a4265bfa6020}" StaticName="Approve_x0020_Status" Name="Approve_x0020_Status" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CHOICES>
+      <CHOICE>ARU Publication</CHOICE>
+      <CHOICE>3rd Party</CHOICE>
+      <CHOICE>Not Approved</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Text" DisplayName="Author Name" Required="FALSE" MaxLength="255" Group="Media Asset Library" ID="{ba553af0-41e4-4770-856c-f3abeb8bb9b8}" SourceID="{463f0f9c-9a79-4ce1-aef7-a4265bfa6020}" StaticName="Author_x0020_Name" Name="Author_x0020_Name" Overwrite="TRUE" />
+  <Field Type="DateTime" DisplayName="Record End" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" Group="Media Asset Library" ID="{b8e4c028-ea58-456a-b805-9e850e8c4762}" SourceID="{463f0f9c-9a79-4ce1-aef7-a4265bfa6020}" StaticName="Record_x0020_End" Name="Record_x0020_End" Overwrite="TRUE" />
+  <Field Type="DateTime" DisplayName="Record Start" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" Group="Media Asset Library" ID="{1ae61478-27ce-4d6d-8872-3dc9bd415ddf}" SourceID="{463f0f9c-9a79-4ce1-aef7-a4265bfa6020}" StaticName="Record_x0020_Start" Name="Record_x0020_Start" Overwrite="TRUE" />
+  <Field Type="Text" DisplayName="Media Description" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Media Asset Library" ID="{b60e2a09-409d-4f45-afea-51a2a03f46de}" SourceID="{463f0f9c-9a79-4ce1-aef7-a4265bfa6020}" StaticName="Video_x0020_Description" Name="Video_x0020_Description" Overwrite="TRUE" />
+  <Field Type="Number" DisplayName="Media ID" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Decimals="0" Group="Media Asset Library" ID="{f8d04f4b-626f-41df-9445-1bd880e19754}" SourceID="{463f0f9c-9a79-4ce1-aef7-a4265bfa6020}" StaticName="VideoID" Name="VideoID" Overwrite="TRUE" />
+  
+  <!-- Configuration List Columns-->
+  <Field  Name="ConfigValue" StaticName="ConfigValue" DisplayName="Config Value" Type="Text" Group="Media Asset Library" ID="{D6DB0B03-3909-4F33-BCCE-793675E80B61}" />
+  
+  <!-- License Clauses List Columns -->
+  <Field Name="ClauseID" DisplayName="Clause ID" Type="Number" Decimals="0" Group="Media Asset Library" ID="{B0DB2DA1-A816-4538-946A-1BF76C278AD6}" />
+  <Field Name="LicenseClause" DisplayName="License Clause" Type="Note" NumLines="6" RichText="FALSE" Group="Media Asset Library" ID="{7D9F1796-C41F-4D54-A923-50FDB96CE82E}" />
+  <Field Name="ClauseType" DisplayName="Clause Type" Type="Choice" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Media Asset Library" ID="{5D41ED09-6B9A-435C-BE86-4C3AA45849EE}">
+    <CHOICES>
+      <CHOICE>General</CHOICE>
+      <CHOICE>Sponsor</CHOICE>
+      <CHOICE>Duration</CHOICE>
+      <CHOICE>Editing</CHOICE>
+    </CHOICES>
+  </Field>
+  
+  <!-- License Request List Columns -->
+  <Field Name="LicenseType" DisplayName="License Type" Type="Choice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Media Asset Library" ID="{066af04f-bcb9-495a-b7e9-a8f66e9a1516}">
+    <CHOICES>
+      <CHOICE>Standard License</CHOICE>
+      <CHOICE>Enhanced License</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Name="Editable" ID="{CDAEB8F9-E7B2-4D38-A8D1-2912DA336C33}" DisplayName="Editable" Type="Boolean" Group="Media Asset Library">
+    <Default>0</Default>
+  </Field>
+  <Field Name="Approved" ID="{29581D89-4269-4C47-9B62-B48DA6F42AD4}" DisplayName="Approved" Type="Boolean" Group="Media Asset Library">
+    <Default>0</Default>
+  </Field>
+  <Field Name="LicenseDays" ID="{99CB4DC0-82D0-4F55-B241-8232BC909BA6}" DisplayName="License Days" Type="Number" Decimals="0" Group="Media Asset Library" />
+  <Field Name="LicenseID" ID="{D76E1B50-D3AD-488E-98A4-168710B7D99F}" DisplayName="License ID" Type="Number" Decimals="0" Group="Media Asset Library" />
+  <Field Name="LicenseRequirement" ID="{DE7F82F7-3FD9-4EFF-BBCA-15CB20DEB8A8}" DisplayName="License Requirement" Type="Note" NumLines="6" RichText="FALSE" Group="Media Asset Library" />
+  <Field Name="RequesterName" ID="{08220569-3D75-48CB-8354-C22B6A72EF15}" DisplayName="Requester Name" Type="Text" Group="Media Asset Library" />
+  <Field Name="Accepted" ID="{481EB76D-361D-42C0-B640-B5787F229EF8}" DisplayName="User Accepted" Type="Boolean" Group="Media Asset Library">
+    <Default>0</Default>
+  </Field>
+  <Field Name="UserEmail" ID="{01D6A900-EB28-422F-B3B7-96951960E74B}" DisplayName="User Email" Type="Text" Group="Media Asset Library" />
+  <Field Name="UserID" ID="{35D6E4AB-EE40-43E0-9B76-26DEF65ADF7A}" DisplayName="User ID" Type="Text" Group="Media Asset Library" />
+  <Field Name="LicenseApprovers"
+         ID="{91DE8220-212E-4E79-A009-D02E28B0D705}"
+         DisplayName="License Approvers"
+         Type="UserMulti" 
+         Mult="TRUE"
+         UserSelectionMode="PeopleAndGroups"
+         UserSelectionScope="0"
+         List="UserInfo"
+         Required="FALSE"
+         ShowField="ImnName"
+         Group="Media Asset Library"
+         ColName="int1"
+         RowOrdinal="0" />
+  
+  <!-- Accreditation List columns -->
+  <Field Type="Text" DisplayName="Phone Number" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Media Asset Library" ID="{98d1acc5-4a13-42bb-ba4e-d5f812cf7426}" SourceID="{bdb8ecdd-6ac1-419c-a5bc-281b04396eee}" StaticName="PhoneNumber" Name="PhoneNumber" Hidden="FALSE" ReadOnly="FALSE" />
+  <Field Type="Text" DisplayName="Organisation" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Media Asset Library" ID="{423d8167-2ac0-46c7-b623-bd1265eb95ac}" SourceID="{bdb8ecdd-6ac1-419c-a5bc-281b04396eee}" StaticName="Organisation" Name="Organisation" />
+  <Field Type="Choice" DisplayName="Accreditation Status" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Media Asset Library" ID="{3a8ac3ea-c2b7-4fd7-9806-f7c6b87390c7}" SourceID="{bdb8ecdd-6ac1-419c-a5bc-281b04396eee}" StaticName="AccreditationStatus" Name="AccreditationStatus">
+    <Default>Pending</Default>
+    <CHOICES>
+      <CHOICE>Pending</CHOICE>
+      <CHOICE>Accepted</CHOICE>
+      <CHOICE>Declined</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Text" DisplayName="Website" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Media Asset Library" ID="{e3fb5276-dab9-406a-985f-2244b6122b64}" SourceID="{bdb8ecdd-6ac1-419c-a5bc-281b04396eee}" StaticName="Website" Name="Website" />
+
+  <Field Type="Text" DisplayName="Organisation Details" Name="OrganisationDetails" ID="{0E5FFB7C-2353-4BD9-BC83-2C149D9385CD}" />
+  
+</Elements>
